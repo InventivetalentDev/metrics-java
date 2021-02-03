@@ -46,6 +46,7 @@ public class Flusher {
                 }
                 return null;
             });
+            m.cache.clear();
         });
         return pointsByDatabase;
     }
