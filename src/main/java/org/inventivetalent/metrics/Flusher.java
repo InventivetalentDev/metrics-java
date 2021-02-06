@@ -42,9 +42,8 @@ public class Flusher {
                 });
                 if (point.hasFields()) {
                     builder.point(point.build());
-                    return builder;
                 }
-                return null;
+                return builder;
             });
             m.cache.clear();
         });
